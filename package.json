@@ -1,0 +1,31 @@
+{
+	"name": "sinuca",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dougjuliao/sinuca.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dougjuliao/sinuca/issues"
+	},
+	"homepage": "https://github.com/dougjuliao/sinuca#readme",
+	"dependencies": {
+		"phaser-ce": "^2.9.2"
+	},
+	"devDependencies": {
+		"node-sass": "^4",
+		"babel-core": "^6",
+		"babel-preset-env": "^1",
+		"@pingy/cli": "^0.10.0"
+	}
+}
